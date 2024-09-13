@@ -83,8 +83,8 @@ class IKun {
         container.style.height = height + 'px'
         container.style.width = width + 'px'
 
-        const image = this.image = new Image()
-        image.src = '66116612.png'
+        const image = this.image = new Image(460)
+        image.src = 'lsj.png'
 
         const outline = this.outline = document.createElement('div')
         outline.style.position = 'absolute'
